@@ -1,8 +1,12 @@
-# Leo_Chen_Template
+# Leo Chen Mini 4: GitHub Actions Matrix Build for Multiple Python Versions
 
-[![CI](https://github.com/nogibjj/Leo_Chen_Template/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/Leo_Chen_Template/actions/workflows/hello.yml)
 
-This repository hosts my submission for the Create Python Template assignment. To use this template, connect to a GitHub Codespace and allow the devcontainer to execute the Makefile, which will perform the following tasks: install, format, lint, and test.
+
+## Project Objective
+
+The goal of this project is to test various Python versions and environments using GitHub Actions. I utilized the `setup-python` action along with the `matrix strategy` to run multiple jobs with different configurations.
+
+This repo includes a `main.py` file with a function named `square_number(x)`. This function takes a number as input and returns its square. The functionality of this function is verified through tests in the `test_main.py` file.
 
 Repository Contents:
 
@@ -12,7 +16,7 @@ Repository Contents:
 
 * `.devcontainer`
 
-* `hello.yml`
+* `ci.yml`
 
 * `Makefile`
 
@@ -20,18 +24,8 @@ Repository Contents:
 
 * `README.md`
 
-## Project Objective
-
-The goal of this project is to provide a Python template that includes a `main.py` file with a function named `square_number(x)`. This function takes a number as input and returns its square. The functionality of this function is verified through tests in the `test_main.py` file.
-
-## Setup Instructions
-
-1. Open codespaces
-
-2. Load the repository into codespaces
-
-3. Run the Makefile command: `make all`
-
 ## Result
 
-![result](1.png)
+Navigate to the *Actions* page or click on the *CI badge* to view results.
+
+![result](test_result.png)
