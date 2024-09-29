@@ -1,6 +1,6 @@
 # Leo Chen Mini 4: GitHub Actions Matrix Build for Multiple Python Versions
 
-
+[![CI](https://github.com/nogibjj/Leo_Chen_Mini_4/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Leo_Chen_Mini_4/actions/workflows/ci.yml)
 
 ## Project Objective
 
